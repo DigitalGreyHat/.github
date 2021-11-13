@@ -1,7 +1,7 @@
-name: 'Bug report'
+name: '🐞 Bug report'
 description: Report errors or unexpected behavior
 title: "[Bug]: "
-labels: ["bug"]
+labels: ["🐛 bug"]
 body:
   - type: markdown
     attributes:
@@ -9,36 +9,37 @@ body:
         Create issues related to this project here
   - type: textarea
     attributes:
-      label: Brief description of your issue
+      label: 📑 Brief description of your issue
       placeholder: Briefly describe your issue here.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Steps to reproduce
+      label: 🔁 Steps to reproduce
       placeholder: How to reproduce the issue?
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Expected behavior
-      placeholder: What did you expect to happen?
+      label: 🙁 Actual behavior
+      placeholder: What is currently happening?
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Actual behavior
-      placeholder: What is currently happening?
+      label: 🙂 Expected behavior
+      placeholder: What did you expect to happen?
     validations:
       required: true
   - type: textarea
     attributes:
       label: Environment
       placeholder: |
-        Project Version: 1.x.x
-        OS: Linux? Windows 10? Mac?
-        NodeJS Version: 1.x.x
-        Python Version: 1.x.x
+        Project Version: (_eg._ 1.1.0)
+        OS: (_eg._ Ubuntu 18.04 LTS)
+        NodeJS Version: (_eg._ 14.1.1)
+        Python Version: (_eg._ 3.7.1)
+        Other info: (_eg._ display resolution, ease-of-access settings)
       render: shell
     validations:
       required: true
