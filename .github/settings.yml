@@ -27,7 +27,7 @@ labels:
   - { color: '4080FF', name: 'cd',        description: '' } # Blue
   - { color: 'C080FF', name: 'docs',      description: '' } # Light Purple
 
-  - { color: '000000', name: 'question',  description: '' } # Black
+  - { color: '000000', name: 'question',  description: '' } # Some light color
 
   - { color: 'C00000', name: 'blocked',   description: '' } # Red
   - { color: 'DDDDDD', name: 'duplicate', description: '' } # Gray
